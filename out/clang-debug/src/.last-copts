@@ -1,0 +1,1 @@
+-g -Wall   -Wno-deprecated-register -fno-stack-protector  -DHAVE_PCAP -DXMLPARSER=libxml -DWITH_PARSIM -DWITH_NETBUILDER -DINET_IMPORT -I. -I/Users/shixiang/Downloads/omnetpp-4.6/include
