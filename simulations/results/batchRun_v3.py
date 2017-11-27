@@ -23,10 +23,10 @@ os.system('cp '+sourcefile+' '+bkfile)
 
 exam_num = 1
 ######  start loop
-######  change A in a loop 5,6,7..50  (not 70)
+######  change A in a loop 21  (not 70)
 ######  change Threshold in a loop 0, 0.05, 0.1 ... 0.95, 
-for A in range(5,51,1):
-	for Threshold in range(0,100,5):
+for A in range(45,46,1):
+	for Threshold in range(0,5,5):
 	
 		######  for loop must be int
 		Thresholdf = Threshold/100.0
